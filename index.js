@@ -1,7 +1,5 @@
 var assert = require('assert');
 
-
-
 function EjerciciosArray()
 {
   this.ejercicio1 = function(_arr, _num)
@@ -17,7 +15,6 @@ function EjerciciosArray()
           res = _arr;
         }
       }
-
 
      if(!isNaN(_num)){
        res = res * _num;
@@ -45,7 +42,6 @@ function EjerciciosArray()
   return multi;
 }
 
-
 //ejercicio 4
 
 this.ejercicio4 = function(array) {
@@ -69,7 +65,6 @@ var v = numbers.reduce(function(a, b){
 }
 
 //ejercicio 7
-
 this.ejercicio7 = function (edades) {
 var edad = [];
 var d = new Date();
@@ -79,16 +74,10 @@ var n = d.getFullYear();
          }
 
   }); return edad;
-
-
-
 }
 }
 
 var ejercicios = new EjerciciosArray();
-
-
-
 
 describe('Ejercicios Arrays', function(){
   describe('Ejercicio 1', function(){
@@ -148,16 +137,3 @@ describe('Ejercicios Arrays', function(){
   });
 
 });
-
-
-
-
-
-
-
-
-
-
-
-
-//
