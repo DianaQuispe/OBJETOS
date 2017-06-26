@@ -1,7 +1,5 @@
 var assert = require('assert');
 
-
-
 function EjerciciosArray()
 {
   this.ejercicio1 = function(_arr, _num)
